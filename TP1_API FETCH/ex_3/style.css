@@ -1,0 +1,13 @@
+body { font-family: 'Arial', sans-serif; background: #eef2f3; display: flex; justify-content: center; padding: 50px; }
+
+.container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
+
+input, select, button { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 6px; font-size: 16px; }
+
+button { background: #007bff; color: white; border: none; cursor: pointer; font-weight: bold; }
+
+button:hover { background: #0056b3; }
+
+.select-group { display: flex; align-items: center; gap: 10px; }
+
+#result-container { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
